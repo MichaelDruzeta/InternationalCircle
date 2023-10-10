@@ -188,3 +188,14 @@ a {
   align-items: center ;
   box-shadow: 0.3rem 0.3rem 0.3rem #eee;
 }
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px; 
+  height: 500px;
+  background-color: #ffffff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin: 10px auto; 
+}
