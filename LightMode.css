@@ -1,15 +1,15 @@
 * {
-  color: #000;
-  font-family: Inter;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
   line-height: normal;
   margin: 0;
 }
 
 .ReadMore-body {
   border-top: 1rem solid black;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+
 }
 
 /* NAVIGATION TOP-BAR  */
@@ -38,6 +38,7 @@ nav {
 }
 a {
   text-decoration: none;
+  color:#000;
 }
 .contact-button {
   background-color: rgb(0, 0, 0);
@@ -121,4 +122,80 @@ a {
   background-color: #000;
   margin: 0;
   text-align: center;
+}
+/*NEWSLETTERPAGE*/
+.main{
+  margin-left:7.5rem;
+  margin-left:7.5rem;
+  margin-top:6rem;
+  display:grid;
+  background-color: white;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:repeat(5,14rem);
+  
+}
+.mini{
+ grid-column:1;
+ grid-row:1;
+ display:flex;
+ flex-shrink: 0;
+ border-width:1.25rem;
+ outline:1.25rem solid #C7eaf8;
+ width:28rem;
+ height:14rem;
+ border-radius: 0.1rem;
+}
+.blogimg{
+ grid-column:1;
+}
+.textarticle{
+ grid-column:2;
+ background-color: white;
+ border-top:0.3rem solid #799DAB;
+ border-bottom:0.3rem solid #799DAB;
+ width:14rem;
+ height:13.5rem;
+ padding-left: 0.5rem;
+ 
+}
+.title{
+  margin-top:1rem;
+  font-size:1.25rem;
+  font:Inter;
+  color: #799DAB;
+  width:14rem;
+  height:1.5rem;
+}
+.text{
+  font-size:0.75rem;
+  font:Inter;
+  color:black;
+  width:14rem;
+  height:6.5rem;
+  margin-top:1.5rem;
+}
+.button{
+  margin-top:0.5rem;
+  width:6.5rem;
+  height:1.5rem;
+  background-color: #C7eaf8;
+  border-radius: 1.25rem;
+  font-size:0.7rem;
+  font:Inter;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  box-shadow: 0.3rem 0.3rem 0.3rem #eee;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px; 
+  height: 500px;
+  background-color: #ffffff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin: 10px auto; 
 }
