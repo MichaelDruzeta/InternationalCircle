@@ -128,10 +128,12 @@ a {
   margin-left:14rem;
   margin-right:12rem;
   margin-top:6rem;
+  margin-bottom:8rem;
   display:grid;
   background-color: white;
   grid-template-columns:1fr 1fr;
   grid-template-rows:repeat(5,14rem); 
+  gap:6rem;
 }
 .mini{
  grid-column:1;
@@ -188,10 +190,9 @@ a {
   grid-column:2;
   grid-row-start:1;
   grid-row-end:2;
-  padding:0;
   outline:1.25rem solid #C7eaf8;
   width:28rem;
-  height:35rem;
+  height:34rem;
   border-radius: 0.1rem;
   display:grid;
   grid-template-rows: 20rem 3rem;
@@ -239,3 +240,59 @@ a {
   align-items: center ;
   box-shadow: 0.3rem 0.3rem 0.3rem #eee;
 }
+.mini2{
+  grid-column:1;
+  grid-row:2;
+  outline:1.25rem solid #C7eaf8;
+  width:28rem;
+  height:14rem;
+  border-radius: 0.1rem;
+  display:grid;
+ }
+ .mini3{
+  grid-column:1;
+  grid-row:3;
+  outline:1.25rem solid #C7eaf8;
+  width:28rem;
+  height:14rem;
+  border-radius: 0.1rem;
+  display:grid;
+ }
+ .mini4{
+  grid-column:2;
+  grid-row:3;
+  outline:1.25rem solid #C7eaf8;
+  width:28rem;
+  height:14rem;
+  border-radius: 0.1rem;
+  display:grid;
+ }
+ .mini5{
+  grid-column:2;
+  grid-row:4;
+  outline:1.25rem solid #C7eaf8;
+  width:28rem;
+  height:14rem;
+  border-radius: 0.1rem;
+  display:grid;
+ }
+ .mini6{
+  grid-column:2;
+  grid-row:5;
+  outline:1.25rem solid #C7eaf8;
+  width:28rem;
+  height:14rem;
+  border-radius: 0.1rem;
+  display:grid;
+ }
+ .maxi2{
+  grid-column:1;
+  grid-row-start:4;
+  grid-row-end:5;
+  outline:1.25rem solid #C7eaf8;
+  width:28rem;
+  height:34rem;
+  border-radius: 0.1rem;
+  display:grid;
+  grid-template-rows: 20rem 3rem;
+ }
