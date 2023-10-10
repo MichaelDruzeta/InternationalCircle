@@ -109,7 +109,10 @@ a {
   height: 2.5rem;
   margin-bottom: 1rem;
 }
-
+.social-name,
+.social-id {
+  font-size: 0.8rem;
+}
 .copyright {
   color: white;
   font-weight: 400;
