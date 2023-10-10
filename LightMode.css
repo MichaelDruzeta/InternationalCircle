@@ -1,15 +1,14 @@
 * {
-  color: #000;
-  font-family: Inter;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
   line-height: normal;
   margin: 0;
 }
 
 .ReadMore-body {
   border-top: 1rem solid black;
+  font-style: normal;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /* NAVIGATION TOP-BAR  */
@@ -38,6 +37,7 @@ nav {
 }
 a {
   text-decoration: none;
+  color: #000;
 }
 .contact-button {
   background-color: rgb(0, 0, 0);
