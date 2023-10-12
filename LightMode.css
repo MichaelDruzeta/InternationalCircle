@@ -30,6 +30,9 @@ nav,
   gap: 1rem;
   align-items: center;
 }
+.top-bar:hover{
+  background-color: white;
+}
 nav {
   justify-content: space-between;
   flex-grow: 1;
@@ -297,4 +300,15 @@ a {
   border-radius: 0.1rem;
   display:grid;
   grid-template-rows: 20rem 3rem;
+ }
+ .ContactPage-Body{
+  
+    background-image: url("Images/globe.jpg"); /* Replace 'your-image.jpg' with your image file path */
+    background-size: contain; /* Optional, scales the background image to cover the entire element */
+    background-attachment: fixed; 
+ }
+ .contactgrid-1{
+  display: grid;
+  grid-area: 2/2/4/5;
+  align-items: center;
  }
