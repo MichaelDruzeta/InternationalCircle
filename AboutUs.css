@@ -13,8 +13,8 @@ body{
     background: linear-gradient(
       to top,
       #799dab 0%,
-      #799dab 66%,
-      white 66%,
+      #799dab 68%,
+      white 68%,
       white 100%
       );
 
@@ -67,8 +67,9 @@ body{
   /*------------------------content------------------------*/
 
   .title {
-    padding-top: 3rem;
-    padding-bottom: 0.5em;
+    padding-top: 1rem;
+    padding-bottom: 0.01rem;
+    margin-bottom: 1.5%;
     font-size: 3rem;
     text-align: center;
   }
@@ -79,7 +80,7 @@ body{
     margin: auto;
     padding-left: 25rem;
     padding-right: 25rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     text-align: center;
   }
 
@@ -87,6 +88,7 @@ body{
 
   .stattitle {
     padding-top: 1rem;
+    margin-bottom: 0%;
     font-size: 3rem;
     text-align: center;
   }
@@ -129,13 +131,13 @@ body{
     position: relative;
     top: 9%;
     left: 18%;
-    
-    p {
-      margin-top: 25%;
-      font-size: 350%;
-      color: #ffffff;
-      text-shadow: gray 0px 4px 12px;
-    }
+  }
+
+  .statNum {
+    margin-top: 25%;
+    font-size: 350%;
+    color: #ffffff;
+    text-shadow: gray 0px 4px 12px;
   }
 
   .bottomTxt{
@@ -161,15 +163,16 @@ body{
     top: 5rem;
 }
 
+b {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #799dab;
+}
+
 .titleFaq {
     font-size: 2rem;
     text-align: center;
     color: #799dab;
-    b {
-      color: #799dab;
-      font-size: 2rem;
-      font-weight: bold;
-    }
 }
 
 .faqQ {
@@ -206,13 +209,13 @@ body{
     bottom: 5.15rem;
 
     z-index: 5;
-
-    p {
-        padding: 0em;
-        margin-bottom: -3rem;
-        color:white;
     }
-}
+
+    .faqAtxt {
+      padding: 0em;
+      margin-bottom: -3rem;
+      color:white;
+    }
 
 /*------------------------Footer------------------------*/
 
