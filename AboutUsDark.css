@@ -14,8 +14,8 @@ body{
       to top,
       #799dab 0%,
       #799dab 66%,
-      white 66%,
-      white 100%
+      #c7eaf8 66%,
+      #c7eaf8 100%
       );
 
       background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body{
   .square {
     height: 15em;
     width: 15em;
-    background-color: #c7eaf8;
+    background-color: #000000;
     border-radius: 2em;
     display: flex;
     flex-direction: column;
@@ -125,9 +125,9 @@ body{
   .circle {
     height: 8em;
     width: 8em;
-    border: solid 0.8rem #ffffff;
+    border: solid 0.8rem #799dab;
     border-radius: 10em;
-    background-color: #dcf1f9;
+    background-color: #000;
     position: relative;
     top: 9%;
     left: 18%;
@@ -135,7 +135,7 @@ body{
     p {
       margin-top: 25%;
       font-size: 350%;
-      color: #ffffff;
+      color: #c7eaf8;
       text-shadow: gray 0px 4px 12px;
     }
   }
@@ -145,6 +145,7 @@ body{
        padding-bottom: 2%;
        padding-left: 1em;
        padding-right: 1em;
+       color: #ffffff;
   }
 
   /*------------------------FAQ------------------------*/
@@ -153,10 +154,10 @@ body{
     display: flex;
     flex-direction: column;
     width: 40em;
-    border: 1rem solid #ffffff;
+    border: 1rem solid #c7eaf8;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: #c7eaf8;
+    background-color: #000;
 
     position: relative;
     left: 26rem;
@@ -180,7 +181,7 @@ body{
     font-weight: bold;
     text-align: center;
     border-radius: 1rem;
-    background-color: white;
+    background-color: #c7eaf8;
 
     z-index: 6;
 
@@ -219,7 +220,7 @@ body{
 /*------------------------Footer------------------------*/
 
 .Footer {
-  background-color: #c7eaf8;
+  background-color: #000;
   height: 110%;
   width: 101.6%;
   margin-top: 10rem;
@@ -235,11 +236,11 @@ body{
 .follow {
   grid-column: 1/-1;
   text-align: center;
-  /* margin-bottom: 1rem; */
-  /* padding-top: 0.5rem; */
-  color: #799dab;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
   padding: 1rem 0 0 0;
   text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  color: white;
 }
 .social-block {
   display: flex;
@@ -248,11 +249,12 @@ body{
 }
 .social-img {
   height: 2.5rem;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
 }
 .social-name,
 .social-id {
   font-size: 0.8rem;
+  color: white;
 }
 .copyright {
   color: white;
