@@ -312,7 +312,58 @@ a {
   background-attachment: fixed;
 }
 .contactgrid-1 {
+}
+.ContactPage-Body {
+  background-image: url("Images/Image\ correct.jpg");
+  background-size: auto;
+  background-attachment: fixed;
   display: grid;
-  grid-area: 2/2/4/5;
+}
+.left-side {
+  display: grid;
+  grid-area: 4/3/7/4;
+  text-wrap: wrap;
+}
+.right-side {
+  display: grid;
+  grid-area: 5/5/7/6;
+}
+.boxone {
+  padding-inline-start: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  gap: 10px;
+}
+.boxtwo {
+  background-color: #c7eaf8;
+  padding-inline-start: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  gap: 10px;
+  align-items: stretch;
+}
+.main-contact {
+  display: grid;
   align-items: center;
+  grid-area: 2/2/5/5;
+}
+.box {
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: center; /* Center horizontally */
+  align-items: start; /* Center vertically */
+  width: 20%; /* Set the width of the box */
+  height: 200px; /* Set the height of the box */
+  background-color: #ffffff; /* Background color */
+  /* Border style */
+
+  margin: 20px auto; /* Center the box horizontally on the page */
+}
+.signup-body {
+  background-color: #c7eaf8;
+}
+.signup-head {
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
