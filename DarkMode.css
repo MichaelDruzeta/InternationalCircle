@@ -4,14 +4,14 @@
   line-height: normal;
   margin: 0;
 }
-body{
+body {
   border-top: 1rem solid black;
-  background-color: #799dab; 
+  background-color: #799dab;
 }
 .ReadMore-body {
   border-top: 1rem solid black;
-  background-color: #799dab;   
-  font-size: 1rem; 
+  background-color: #799dab;
+  font-size: 1rem;
   font-weight: 400;
   color: #ffffff;
   font-style: normal;
@@ -51,6 +51,10 @@ a {
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+}
+.contact-button:hover {
+  background-color: #00000050;
+  transition: 0.5s ease-in-out;
 }
 .left {
   margin-left: 2rem;
@@ -132,169 +136,169 @@ a {
   text-align: center;
 }
 /*NEWSLETTERPAGE*/
-.main{
-  margin-left:17rem;
-  margin-right:17rem;
-  margin-top:6rem;
-  margin-bottom:8rem;
-  display:grid;
-  background-color: #799dab; 
-  grid-template-columns:30rem 30rem;
-  grid-template-rows:repeat(5,15rem);
-  grid-row-gap:3rem;
-  grid-column-gap:2rem;
+.main {
+  margin-left: 17rem;
+  margin-right: 17rem;
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+  display: grid;
+  background-color: #799dab;
+  grid-template-columns: 30rem 30rem;
+  grid-template-rows: repeat(5, 15rem);
+  grid-row-gap: 3rem;
+  grid-column-gap: 2rem;
 }
-.mini{
- grid-column:1;
- grid-row:1;
- outline:1.25rem solid #000;
- width:28rem;
- height:14rem;
- border-radius: 0.1rem;
- display:grid;
-}
-.blogimg{
- grid-column:1;
-}
-.textarticle{
- grid-column:2;
- background-color: #C7EAF8;
- border-top:0.3rem solid #799DAB;
- border-bottom:0.3rem solid #799DAB;
- width:14rem;
- height:13.5rem;
- padding-left: 0.5rem;
-}
-.title{
-  margin-top:1rem;
-  font-size:1.25rem;
-  color: #799DAB;
-  width:14rem;
-  height:1.5rem;
-}
-.text{
-  font-size:0.75rem;
-  color:black;
-  width:13rem;
-  height:6.5rem;
-  margin-top:1.5rem;
-}
-.button{
-  margin-top:0.5rem;
-  width:6.5rem;
-  height:1.5rem;
-  background-color: #799DAB;
-  border-radius: 1.25rem;
-  font-size:0.7rem;
-  color:black;
-  display: flex;
-  justify-content: center;
-  align-items: center ;
-  box-shadow: 0.3rem 0.3rem 0.3rem #eeeeee44;
-}
-.maxi{
-  grid-column:2;
-  grid-row-start:1;
-  grid-row-end:2;
-  outline:1.25rem solid #000;
-  width:28rem;
-  height:32rem;
+.mini {
+  grid-column: 1;
+  grid-row: 1;
+  outline: 1.25rem solid #000;
+  width: 28rem;
+  height: 14rem;
   border-radius: 0.1rem;
-  display:grid;
-  grid-template-rows: 20rem 3rem;
- }
- .textarticle-maxi{
-  grid-row:2;
-  background-color: #C7EAF8;
-  border-left:0.3rem solid #799DAB;
-  border-right:0.3rem solid #799DAB;
-  width:26.9rem;
-  height:12rem;
+  display: grid;
+}
+.blogimg {
+  grid-column: 1;
+}
+.textarticle {
+  grid-column: 2;
+  background-color: #c7eaf8;
+  border-top: 0.3rem solid #799dab;
+  border-bottom: 0.3rem solid #799dab;
+  width: 14rem;
+  height: 13.5rem;
   padding-left: 0.5rem;
- }
- .blogimg-maxi{
-  grid-row:1;
- }
- .title-maxi{
-  margin-top:1.5rem;
-  font-size:1.25rem;
-  color: #799DAB;
-  width:28rem;
-  height:0.8rem;
 }
- .text-maxi{
-  font-size:0.75rem;
-  color:black;
-  width:25rem;
-  height:5rem;
-  margin-top:1.5rem;
+.title {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #799dab;
+  width: 14rem;
+  height: 1.5rem;
 }
-.button-maxi{
-  margin-top:0.2rem;
-  width:6.5rem;
-  height:1.5rem;
-  background-color: #799DAB;
+.text {
+  font-size: 0.75rem;
+  color: black;
+  width: 13rem;
+  height: 6.5rem;
+  margin-top: 1.5rem;
+}
+.button {
+  margin-top: 0.5rem;
+  width: 6.5rem;
+  height: 1.5rem;
+  background-color: #799dab;
   border-radius: 1.25rem;
-  font-size:0.7rem;
-  color:black;
+  font-size: 0.7rem;
+  color: black;
   display: flex;
   justify-content: center;
-  align-items: center ;
+  align-items: center;
   box-shadow: 0.3rem 0.3rem 0.3rem #eeeeee44;
 }
-.mini2{
-  grid-column:1;
-  grid-row:2;
-  outline:1.25rem solid #000;
-  width:28rem;
-  height:14rem;
+.maxi {
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  outline: 1.25rem solid #000;
+  width: 28rem;
+  height: 32rem;
   border-radius: 0.1rem;
-  display:grid;
- }
- .mini3{
-  grid-column:1;
-  grid-row:3;
-  outline:1.25rem solid #000;
-  width:28rem;
-  height:14rem;
-  border-radius: 0.1rem;
-  display:grid;
- }
- .mini4{
-  grid-column:2;
-  grid-row:3;
-  outline:1.25rem solid #000;
-  width:28rem;
-  height:14rem;
-  border-radius: 0.1rem;
-  display:grid;
- }
- .mini5{
-  grid-column:2;
-  grid-row:4;
-  outline:1.25rem solid #000;
-  width:28rem;
-  height:14rem;
-  border-radius: 0.1rem;
-  display:grid;
- }
- .mini6{
-  grid-column:2;
-  grid-row:5;
-  outline:1.25rem solid #000;
-  width:28rem;
-  height:14rem;
-  border-radius: 0.1rem;
-  display:grid;
- }
- .maxi2{
-  grid-column:1;
-  grid-row-start:4;
-  grid-row-end:5;
-  outline:1.25rem solid #000;
-  width:28rem;
-  height:32rem;
-  border-radius: 0.1rem;
-  display:grid;
+  display: grid;
   grid-template-rows: 20rem 3rem;
- }
+}
+.textarticle-maxi {
+  grid-row: 2;
+  background-color: #c7eaf8;
+  border-left: 0.3rem solid #799dab;
+  border-right: 0.3rem solid #799dab;
+  width: 26.9rem;
+  height: 12rem;
+  padding-left: 0.5rem;
+}
+.blogimg-maxi {
+  grid-row: 1;
+}
+.title-maxi {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  color: #799dab;
+  width: 28rem;
+  height: 0.8rem;
+}
+.text-maxi {
+  font-size: 0.75rem;
+  color: black;
+  width: 25rem;
+  height: 5rem;
+  margin-top: 1.5rem;
+}
+.button-maxi {
+  margin-top: 0.2rem;
+  width: 6.5rem;
+  height: 1.5rem;
+  background-color: #799dab;
+  border-radius: 1.25rem;
+  font-size: 0.7rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.3rem 0.3rem 0.3rem #eeeeee44;
+}
+.mini2 {
+  grid-column: 1;
+  grid-row: 2;
+  outline: 1.25rem solid #000;
+  width: 28rem;
+  height: 14rem;
+  border-radius: 0.1rem;
+  display: grid;
+}
+.mini3 {
+  grid-column: 1;
+  grid-row: 3;
+  outline: 1.25rem solid #000;
+  width: 28rem;
+  height: 14rem;
+  border-radius: 0.1rem;
+  display: grid;
+}
+.mini4 {
+  grid-column: 2;
+  grid-row: 3;
+  outline: 1.25rem solid #000;
+  width: 28rem;
+  height: 14rem;
+  border-radius: 0.1rem;
+  display: grid;
+}
+.mini5 {
+  grid-column: 2;
+  grid-row: 4;
+  outline: 1.25rem solid #000;
+  width: 28rem;
+  height: 14rem;
+  border-radius: 0.1rem;
+  display: grid;
+}
+.mini6 {
+  grid-column: 2;
+  grid-row: 5;
+  outline: 1.25rem solid #000;
+  width: 28rem;
+  height: 14rem;
+  border-radius: 0.1rem;
+  display: grid;
+}
+.maxi2 {
+  grid-column: 1;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  outline: 1.25rem solid #000;
+  width: 28rem;
+  height: 32rem;
+  border-radius: 0.1rem;
+  display: grid;
+  grid-template-rows: 20rem 3rem;
+}
